@@ -1,0 +1,35 @@
+.settings__setting {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.88;
+  position: relative;
+}
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.88;
+}
+
+.opacity-part {
+  opacity: 0.6;
+}
+
+.settings__setting__noti {
+  position: absolute;
+  left: 130px;
+  top: 28px;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+}
