@@ -1,5 +1,12 @@
 .user-component {
   justify-content: space-between;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.user-component:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .user-component,
@@ -56,11 +63,6 @@
 .user-component__animation {
   padding: 10px 0px;
   transition: background 0.5s;
-}
-
-.user-component__animation:hover {
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .user-component__text {
